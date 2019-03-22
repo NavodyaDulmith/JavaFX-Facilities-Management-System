@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1067.0" style="-fx-background-color: #bdc3c7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Window4Controller">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="1067.0" style="-fx-background-color: bdc3c7;">
+         <children>
+            <Button layoutX="384.0" layoutY="104.0" mnemonicParsing="false" onAction="#Ground" prefHeight="50.0" prefWidth="300.0" text="Ground Floor" />
+            <Button layoutX="384.0" layoutY="177.0" mnemonicParsing="false" onAction="#floor1" prefHeight="50.0" prefWidth="300.0" text="1st Floor" />
+            <Button layoutX="384.0" layoutY="250.0" mnemonicParsing="false" onAction="#floor2" prefHeight="50.0" prefWidth="300.0" text="2nd Floor" />
+            <Button layoutX="384.0" layoutY="319.0" mnemonicParsing="false" onAction="#floor3" prefHeight="50.0" prefWidth="300.0" text="3rd Floor" />
+            <Button layoutX="384.0" layoutY="391.0" mnemonicParsing="false" onAction="#floor4" prefHeight="50.0" prefWidth="300.0" text="4th Floor" />
+            <Label layoutX="37.0" layoutY="104.0" text="Click Buttons To display Floor Plans">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="905.0" layoutY="549.0" mnemonicParsing="false" onAction="#Back" prefHeight="25.0" prefWidth="50.0" text="Back">
+               <effect>
+                  <InnerShadow color="#f50000" />
+               </effect>
+               <font>
+                  <Font name="Forte" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

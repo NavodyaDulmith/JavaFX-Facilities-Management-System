@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1062.0" style="-fx-background-color: #bdc3c7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Window3Controller">
+   <children>
+      <AnchorPane layoutX="-2.0" opacity="0.75" prefHeight="600.0" prefWidth="1066.0" style="-fx-background-color: #e#bdc3c7cf0f1;">
+         <children>
+            <Button layoutX="889.0" layoutY="543.0" mnemonicParsing="false" onAction="#Back" prefHeight="25.0" prefWidth="50.0" text="Back">
+               <effect>
+                  <InnerShadow color="#f50000" />
+               </effect>
+               <font>
+                  <Font name="Forte" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn1" layoutX="283.0" layoutY="157.0" mnemonicParsing="false" onAction="#btn1" prefHeight="100.0" prefWidth="500.0" text="Log a Maintenance Call">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn2" layoutX="283.0" layoutY="318.0" mnemonicParsing="false" onAction="#btn2" prefHeight="100.0" prefWidth="500.0" text="Cancel a Maintenance Call">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="label" layoutX="350.0" layoutY="81.0" prefHeight="17.0" prefWidth="306.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

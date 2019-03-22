@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1067.0" style="-fx-background-color: #bdc3c7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Window2__Controller">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="1067.0">
+         <children>
+            <Button layoutX="740.0" layoutY="434.0" mnemonicParsing="false" onAction="#Update" prefHeight="25.0" prefWidth="106.0" text="Update Details" />
+            <TextField fx:id="txtLoc" layoutX="445.0" layoutY="265.0" prefWidth="400.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtuserN" layoutX="445.0" layoutY="127.0" prefWidth="400.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtFID" layoutX="445.0" layoutY="196.0" prefWidth="400.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="76.0" layoutY="259.0" prefHeight="50.0" prefWidth="300.0" text="Location of the item to be Moved :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="190.0" prefHeight="50.0" prefWidth="300.0" text="Furniture ID :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="121.0" prefHeight="50.0" prefWidth="300.0" text="User Name :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="906.0" layoutY="553.0" mnemonicParsing="false" onAction="#Back2" prefHeight="25.0" prefWidth="50.0" text="Back">
+               <effect>
+                  <InnerShadow color="#f50000" />
+               </effect>
+               <font>
+                  <Font name="Forte" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

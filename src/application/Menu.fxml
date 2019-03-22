@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1067.0" style="-fx-background-color: #bdc3c7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <children>
+      
+      <Button fx:id="btn1" layoutX="159.0" layoutY="170.0" mnemonicParsing="false" onAction="#window1" prefHeight="40.0" prefWidth="750.0" text="Request an office Move" textAlignment="RIGHT">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#209769" height="15.0" radius="7.0" width="15.0" />
+         </effect>
+      </Button>
+      <Button layoutX="159.0" layoutY="226.0" mnemonicParsing="false" onAction="#window2" prefHeight="40.0" prefWidth="750.0" text="Change/Delete Office Move">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#209769" height="15.0" radius="7.0" width="15.0" />
+         </effect>
+      </Button>
+      <Button layoutX="159.0" layoutY="282.0" mnemonicParsing="false" onAction="#window3" prefHeight="40.0" prefWidth="750.0" text="Maintainance call">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#209769" height="15.0" radius="7.0" width="15.0" />
+         </effect>
+      </Button>
+      <Button layoutX="159.0" layoutY="341.0" mnemonicParsing="false" onAction="#window4" prefHeight="40.0" prefWidth="750.0" text="See Building Plans">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#209769" height="15.0" radius="7.0" width="15.0" />
+         </effect>
+      </Button>
+      <Button layoutX="159.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="750.0" text="Generate FMO report">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#209769" height="15.0" radius="7.0" width="15.0" />
+         </effect>
+      </Button>
+      <Label alignment="CENTER" layoutX="384.0" layoutY="62.0" prefHeight="50.0" prefWidth="300.0" text="Menu">
+         <font>
+            <Font name="Forte" size="36.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="1.0" centerY="0.18571428571428572" cycleMethod="REPEAT" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="0.007662835249042145" />
+                  <Stop color="#00ff9e" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #bdc3c7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Window2_2Controller">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="479.0" layoutY="334.0" mnemonicParsing="false" onAction="#Delete" prefHeight="25.0" prefWidth="65.0" text="Ok" />
+            <Label layoutX="89.0" layoutY="146.0" text="Enter User Name">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtuser" layoutX="221.0" layoutY="141.0" prefHeight="41.0" prefWidth="300.0" />
+            <Label fx:id="lbl1" layoutX="221.0" layoutY="278.0" prefHeight="27.0" prefWidth="214.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
